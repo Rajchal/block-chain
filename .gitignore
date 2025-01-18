@@ -1,2 +1,17 @@
-
+# Node modules
 node_modules/
+
+# Compiled JavaScript files
+*.js
+*.js.map
+*.d.ts
+
+# Directory for compiled files
+dist/
+build/
+
+# Ignore log files
+*.log
+
+# Ignore environment configuration files
+.env
