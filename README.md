@@ -26,7 +26,7 @@ This is a simple blockchain application implemented in TypeScript. It demonstrat
 
 1. Compile the TypeScript code:
     ```sh
-    npm run dev
+    npm run toJs
     ```
 
 2. Run the application:
