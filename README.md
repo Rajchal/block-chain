@@ -2,18 +2,65 @@
 
 Welcome to the BlockChain Project! This project aims to provide a comprehensive implementation of blockchain technology.
 
-## Table of Contents
+## Features
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- Create and manage transactions
+- Generate blocks and add them to the blockchain
+- Mine blocks to find a valid nonce
+- Verify transactions using public and private keys
 
-## Introduction
+## Installation
 
-This project is a blockchain implementation that allows for secure, transparent, and tamper-proof transactions. It is designed to be easy to understand and extend.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Rajchal/block-chain.git
+    cd block-chain
+    ```
+
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
+
+## Usage
+
+1. Compile the TypeScript code:
+    ```sh
+    npm run dev
+    ```
+
+2. Run the application:
+    ```sh
+    node index.js
+    ```
+
+## Example
+
+The following example demonstrates how to create wallets and send money between them:
+
+```typescript
+const Anjal = new Wallet();
+const Ell = new Wallet();
+const Anj = new Wallet();
+
+Anjal.sendMoney(50, Ell.publicKey);
+Ell.sendMoney(23, Anj.publicKey);
+Anj.sendMoney(5, Ell.publicKey);
+
+console.log(Chain.instance);
+
+Collecting workspace information
+
+Sure! Here is a 
+
+README.md
+
+ file for your blockchain application:
+
+```md
+# Blockchain Application
+
+This is a simple blockchain application implemented in TypeScript. It demonstrates basic concepts of blockchain technology, including transactions, blocks, and mining.
 
 ## Features
 
